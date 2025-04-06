@@ -3,7 +3,7 @@ from pymongo import MongoClient
 
 API_TOKEN = '7086533105:AAFbRdYjsOF0XlQzTy9R0TQLdAX6zNmYHHA'
 
-MONGO_URI = 'mongodb+srv://rabbit:rabbitt@rabbit.dxuillb.mongodb.net/?retryWrites=true&w=majority&appName=rabbit'
+MONGO_URI = 'mongodb+srv://rabbit:@rabbit.dxuillb.mongodb.net/?retryWrites=true&w=majority&appName=rabbit'
 
 bot = telebot.TeleBot(API_TOKEN)
 client = MongoClient(MONGO_URI)
